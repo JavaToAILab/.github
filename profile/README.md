@@ -4,7 +4,15 @@
 
 This is the code companion to *Java to AI*, a Medium series written by an enterprise Java architect who is learning AI in public, one working build at a time.
 
-Each article takes something Java engineers already know (a circuit breaker, a database index, an ESB route, an API contract), maps it to its AI equivalent, and builds it in Java. Every build article has its own repo here.
+Each article takes something Java engineers already know (a circuit breaker, a database index, an ESB route, an API contract), maps it to its AI equivalent, and builds it in Java.
+
+## The running example: IncidentPilot
+
+The whole series builds one real-time application: **[IncidentPilot](https://github.com/JavaToAILab/incident-pilot), an AI incident copilot for a microservices platform**.
+
+Alerts and log events stream in through Kafka. IncidentPilot summarizes each incident as a structured record, finds similar past incidents and the matching runbook, queries metrics, logs and deploy history through tools, and streams a triage recommendation to a live dashboard. A human approves every action.
+
+Every build article adds one piece and ends with a git tag (`article-03`, `article-05`, …), so you can check out exactly the code each article describes.
 
 ## Who this is for
 
@@ -15,31 +23,30 @@ No beginner tutorials or hype. Just working code, production gotchas, and an hon
 
 ## Stack
 
-- Java 21, Maven; Spring Boot 3 where a framework earns its place
+- Java 21, Maven; Spring Boot 3 from the real-time article onward
 - Spring AI and LangChain4j
-- PostgreSQL + pgvector
+- Kafka, PostgreSQL + pgvector
 - Ollama for local models by default; hosted models through configuration
 
-Every repo runs locally with no API keys required.
+Everything runs locally with no API keys required.
 
 ## Series index
 
-| # | Article | Repo | Status |
+| # | Article | Code | Status |
 |---|---------|------|--------|
 | 1 | [An Enterprise Java Architect Starts Over With AI](https://medium.com/@abhinav.neo/an-enterprise-java-architect-starts-over-with-ai-9dff7bb36414) | — | Published |
 | 2 | [The Java Developer's AI Skill Map: What to Learn, What to Skip](https://medium.com/@abhinav.neo/the-java-developers-ai-skill-map-what-to-learn-what-to-skip-7ed8aeb069d5) | — | Published |
-| 3 | [Your First LLM Call From Java, Written Like Production Code](https://medium.com/@abhinav.neo/your-first-llm-call-from-java-written-like-production-code-bfc809df2a61) | [`first-llm-call`](https://github.com/JavaToAILab/first-llm-call) | Published |
-| 4 | An LLM Is a Non-Deterministic Dependency | — | Coming soon |
-| 5 | Tokens and Context Windows as Capacity Planning | `token-cost-estimator` | Coming soon |
-| 7 | Structured Output With Java Records | `structured-output-records` | Coming soon |
+| 3 | [Your First LLM Call From Java, Written Like Production Code](https://medium.com/@abhinav.neo/your-first-llm-call-from-java-written-like-production-code-bfc809df2a61) | [`incident-pilot@article-03`](https://github.com/JavaToAILab/incident-pilot/tree/article-03) | Published |
+| 4 | Meet IncidentPilot: An LLM Is a Non-Deterministic Dependency | — | Coming soon |
+| 5 | Tokens and Context Windows as Capacity Planning | `article-05` | Coming soon |
+| 7 | Structured Output With Java Records | `article-07` | Coming soon |
 
 This table is updated as each article goes live.
 
-## Repo layout
+## Repos
 
-- **One repo per build article**, named after what it builds (`first-llm-call`, `rag-spring-pgvector`, `mcp-server-java`, `eval-harness`, …)
-
-Each repo's README links back to its article.
+- **[incident-pilot](https://github.com/JavaToAILab/incident-pilot)**: the application, one module per build article, tagged per article
+- **[first-llm-call](https://github.com/JavaToAILab/first-llm-call)**: Article 3's standalone code, kept as published
 
 ## Follow along
 
