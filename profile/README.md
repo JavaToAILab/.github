@@ -38,7 +38,7 @@ Everything runs locally with no API keys required.
 | 2 | [The Java Developer's AI Skill Map: What to Learn, What to Skip](https://medium.com/@abhinav.neo/the-java-developers-ai-skill-map-what-to-learn-what-to-skip-7ed8aeb069d5) | — | Published |
 | 3 | [Your First LLM Call From Java, Written Like Production Code](https://medium.com/@abhinav.neo/your-first-llm-call-from-java-written-like-production-code-bfc809df2a61) | [`incident-pilot@article-03`](https://github.com/JavaToAILab/incident-pilot/tree/article-03) | Published |
 | 4 | [Meet IncidentPilot: An LLM Is a Non-Deterministic Dependency](https://medium.com/@abhinav.neo/meet-incidentpilot-an-llm-is-a-non-deterministic-dependency-97de8825c3c6) | [`incident-pilot`](https://github.com/JavaToAILab/incident-pilot) | Published |
-| 5 | Tokens and Context Windows as Capacity Planning | `article-05` | Coming soon |
+| 5 | [Tokens and Context Windows as Capacity Planning](https://medium.com/@abhinav.neo/tokens-and-context-windows-as-capacity-planning-1626d8652014) | [`incident-pilot@article-05`](https://github.com/JavaToAILab/incident-pilot/tree/article-05) | Published |
 | 7 | Structured Output With Java Records | `article-07` | Coming soon |
 
 This table is updated as each article goes live.
