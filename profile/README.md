@@ -40,7 +40,7 @@ Everything runs locally with no API keys required.
 | 4 | [Meet IncidentPilot: An LLM Is a Non-Deterministic Dependency](https://medium.com/@abhinav.neo/meet-incidentpilot-an-llm-is-a-non-deterministic-dependency-97de8825c3c6) | [`incident-pilot`](https://github.com/JavaToAILab/incident-pilot) | Published |
 | 5 | [Tokens and Context Windows as Capacity Planning](https://medium.com/@abhinav.neo/tokens-and-context-windows-as-capacity-planning-1626d8652014) | [`incident-pilot@article-05`](https://github.com/JavaToAILab/incident-pilot/tree/article-05) | Published |
 | 6 | [Prompts Are API Contracts](https://medium.com/@abhinav.neo/prompts-are-api-contracts-2af2b2e8a944) | [`incident-pilot@article-06`](https://github.com/JavaToAILab/incident-pilot/tree/article-06) | Published |
-| 7 | Structured Output With Java Records | `article-07` | Coming soon |
+| 7 | [Structured Output With Java Records](https://medium.com/@abhinav.neo/structured-output-with-java-records-36e4d02a2c51) | [`incident-pilot@article-07`](https://github.com/JavaToAILab/incident-pilot/tree/article-07) | Published |
 
 This table is updated as each article goes live.
 
